@@ -35,7 +35,7 @@ This edition of Windows NT 5 is a member of the Microsoft Windows NT family, beg
 
 ## Generating New Build Name/Number (Optional)
 - Version information is stored in `\public\sdk\inc\ntverp.h`
-- -You can also use `nmake set_builddate set_buildnum set_buildname -f makefil0` to generate new build name quickly.
+- You can also use `nmake set_builddate set_buildnum set_buildname -f makefil0` to generate new build name quickly.
 
 ## Timebomb (Optional)
 - Can be enabled or disabled by commenting or uncommenting `timebomb.cmd` entry in `\tools\postbuildscripts\pbuild.dat`
